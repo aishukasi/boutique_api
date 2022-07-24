@@ -1,0 +1,49 @@
+{
+  "Discount": [
+    {
+      "Discount_Type": "C",
+      "Discount_On": "Casuals",
+      "Discount": "30"
+    },
+    {
+      "Discount_Type": "C",
+      "Discount_On": "Jeans",
+      "Discount": "20"
+    },
+    {
+      "Discount_Type": "C",
+      "Discount_On": "Women",
+      "Discount": "50"
+    },
+    {
+      "Discount_Type": "B",
+      "Discount_On": "Wrangler",
+      "Discount": "10"
+    },
+    {
+      "Discount_Type": "B",
+      "Discount_On": "Arrow",
+      "Discount": "20"
+    },
+    {
+      "Discount_Type": "B",
+      "Discount_On": "Vero Moda",
+      "Discount": "60"
+    },
+    {
+      "Discount_Type": "B",
+      "Discount_On": "UCB",
+      "Discount": "0"
+    },
+    {
+      "Discount_Type": "B",
+      "Discount_On": "Adidas",
+      "Discount": "5"
+    },
+    {
+      "Discount_Type": "B",
+      "Discount_On": "Provogue",
+      "Discount": "20"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "Inventory": [
+    {
+      "SKUID": "1",
+      "Brand": "Arrow",
+      "Category": "Shirts",
+      "ListPrice": "800"
+    },
+    {
+      "SKUID": "2",
+      "Brand": "Vero Moda",
+      "Category": "Dresses",
+      "ListPrice": "1400"
+    },
+    {
+      "SKUID": "3",
+      "Brand": "Provogue",
+      "Category": "Footwear",
+      "ListPrice": "1800"
+    },
+    {
+       "SKUID": "4",
+      "Brand": "Wrangler",
+      "Category": "Jeans",
+      "ListPrice": "2200"
+    },
+    {
+      "SKUID": "5",
+      "Brand": "UCB",
+      "Category": "shirts",
+      "ListPrice": "1500"
+    }
+  ]
+}
