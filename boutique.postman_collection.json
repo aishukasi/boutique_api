@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "156aff97-d58c-4442-bf0e-bf1952a41c71",
+		"name": "boutique",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Order",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cart\": {\r\n    \"items\": [\r\n      {\r\n        \"skuid\": 3,\r\n        \"unitsbought\": 1\r\n      },\r\n      {\r\n        \"skuid\": 4,\r\n        \"unitsbought\": 1\r\n      }\r\n    ]\r\n  }\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/boutiques/order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"boutiques",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Catalog",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"value": null,
+							"contentType": "multipart/form-data",
+							"type": "file"
+						},
+						{
+							"key": "",
+							"value": null,
+							"contentType": "multipart/form-data",
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/boutiques/catalog",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"boutiques",
+						"catalog"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

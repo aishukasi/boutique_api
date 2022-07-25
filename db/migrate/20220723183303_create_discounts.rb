@@ -7,5 +7,6 @@ class CreateDiscounts < ActiveRecord::Migration[7.0]
 
       t.timestamps
     end
+    add_index :discounts, [:discount_type, :discount_on], unique: true
   end
 end

@@ -24,6 +24,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_07_23_183303) do
     t.integer "discount_precentage"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["discount_type", "discount_on"], name: "index_discounts_on_discount_type_and_discount_on", unique: true
   end
 
   create_table "inventories", force: :cascade do |t|

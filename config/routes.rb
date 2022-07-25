@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  default_url_options :host => "example.com"
   namespace :api do
     namespace :v1 do
       resources :boutiques do
